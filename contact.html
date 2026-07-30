@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - FleetXpress</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+<header>
+  <div class="navbar">
+    <h2 onclick="location.href='index1.html'" style="cursor:pointer;">FLEETXPRESS.</h2>
+    <div>
+      <a href="homepage.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="tracking.html">Tracking</a>
+      <a href="contact.html">Contact</a>
+      <button class="login-btn" onclick="openLogin()">Login</button>
+    </div>
+  </div>
+</header>
+
+<main>
+    <section id="contact" class="contact-details">
+      <h2 style="font-weight: 800; font-size: 36px; color:white; margin-bottom: 30px; text-transform: uppercase;">
+        <strong>Contact Details</strong>
+    </h2>
+      <br>
+      <div class="contact-card">
+        <p style="font-size: 24px; color: wheat; font-weight: bold;  margin-bottom: 15px; ">FleetXpress Logistics Pvt. Ltd.</p>
+        <p><strong>📍 Corporate Headquarters:</strong><br>
+        Plot No. 45, Sector 18, Global Logistics Hub,<br>
+        Navi Mumbai, Maharashtra - 400705, India</p>
+        <br>
+        <p><strong>📞 Phone:</strong> +91 9004021371</p>
+        <p><strong>☎️ Landline:</strong> +91 22 2785 4400 / 2785 4401</p>
+        <p><strong>✉️ Email:</strong> support@fleetxpress.com</p>
+      </div>
+    </section>
+</main>
+
+<footer>
+  <p>FleetXpress Logistics</p>
+  <p>Email: support@fleetxpress.com | Phone: +91 9004021371</p>
+  <p>© 2026 FleetXpress. All rights reserved.</p>
+</footer>
+
+<div class="modal" id="loginModal">
+    <div class="modal-box">
+        <h3>Login</h3>
+        <input type="text" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <button class="login-btn" style="width:100%; margin:0;">Login</button>
+        <p onclick="closeLogin()" style="margin-top:10px; cursor:pointer; color:gray;">Close</p>
+    </div>
+</div>
+
+<script src="JS/page.js"></script>
+
+</body>
+</html>
