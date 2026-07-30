@@ -58,10 +58,6 @@ Simply open the `index.html` file in your browser, or use a local development se
 - Beginner-friendly project structure
 - Suitable for logistics, transport, shipping, and freight companies
 
-## 📸 Preview
-
-Add screenshots or a live demo link here.
-
 ## 📌 Future Improvements
 
 - Shipment tracking system
